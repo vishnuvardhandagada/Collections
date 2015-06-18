@@ -1,4 +1,4 @@
-package com.collection.stream;
+package collection.util;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,5 +19,11 @@ public class CollectionUtil {
 						new Person("sita", Person.Sex.FEMALE, new Date(1985, 5, 5), "web@gmail.com",30),
 						new Person("lalita", Person.Sex.FEMALE, new Date(1988, 8, 8), "web@gmail.com",27)));
 		return persons;
+	}
+	
+	public static List<Integer> getIntegerList(){
+		Integer[] numbers = {1,2,3,4,5,6,7,8,9,0};
+		List<Integer> numberList = new ArrayList<>(Arrays.asList(numbers));
+		return numberList;
 	}
 }

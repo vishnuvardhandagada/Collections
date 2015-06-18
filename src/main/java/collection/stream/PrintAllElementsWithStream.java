@@ -1,6 +1,9 @@
-package com.collection.stream;
+package collection.stream;
 
 import java.util.List;
+
+import collection.util.CollectionUtil;
+import collection.util.Person;
 
 /**
  * class to print all members of collection using stream aggregate operations

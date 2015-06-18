@@ -1,4 +1,4 @@
-package com.collection.stream;
+package collection.util;
 
 import java.util.Date;
 
