@@ -9,6 +9,7 @@ public class SetNullTest {
 		Set<String> set = new HashSet<>();
 		set.add(null);
 		set.add("jkj");
+		set.add(null);
 		System.out.println(set);
 	}
 }
